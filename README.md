@@ -1,8 +1,8 @@
 # SLAM_with_OSM_priors
-This is a ROS package that implement a system for performing SLAM using OpenStreetMap priors.
+This is a ROS package that implements a system for performing SLAM using OpenStreetMap priors.
 To make the package work you need to install the packages and libraries required by [hdl_graph_slam](https://github.com/koide3/hdl_graph_slam), on which the system is based.
 
-Additionally, the [curlpp](http://www.curlpp.org/) library and the [rviz_satellite](https://github.com/nobleo/rviz_satellite) package are required.
+Additionally, the [curlpp](http://www.curlpp.org/) library and the [rviz_satellite](https://github.com/nobleo/rviz_satellite) packages are required.
 
 The package has been tested on Ubuntu with ROS Melodic.
 
@@ -15,4 +15,4 @@ To run it you need to open four terminals. Then do the following operations:
 
 if commands don't work try to source the terminals (especially required by terminal 2 for roslaunch and terminal 4 for rviz).
 
-Bags are created with the tool [kitti2bag](https://github.com/tomas789/kitti2bag) from [kitti raw sequences](http://www.cvlibs.net/datasets/kitti/raw_data.php). I had to modify the tool to remove the publication of the tf map -> base_link
+Bags are created with the tool [kitti2bag](https://github.com/tomas789/kitti2bag) from [kitti raw sequences](http://www.cvlibs.net/datasets/kitti/raw_data.php) synced. I had to modify the tool to remove the publication of the tf map -> base_link
