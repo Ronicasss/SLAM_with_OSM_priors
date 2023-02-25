@@ -16,3 +16,6 @@ To run it you need to open four terminals. Then do the following operations:
 if commands don't work try to source the terminals (especially required by terminal 2 for roslaunch and terminal 4 for rviz).
 
 Bags are created with the tool [kitti2bag](https://github.com/tomas789/kitti2bag) from [kitti raw sequences](http://www.cvlibs.net/datasets/kitti/raw_data.php) synced. I had to modify the tool to remove the publication of the tf map -> base_link
+
+2023-02-25 Thesis pdf was added
+N.B.: This code is highly messy and chaotic. I plan to refactor it entirely
